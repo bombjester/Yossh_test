@@ -46,7 +46,7 @@
 			}
 			functions.get_expenses = function(callback){
 				$http.get("/get_expenses").success(function(result){
-					console.log("got back here");
+					
 					expenses = result;
 					callback(expenses);
 				})
