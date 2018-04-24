@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<div class="row" ng-controller="listcontroller">
+			<h1> User 2 List</h1>
+				<table class="table">
+				  <thead>
+				    <tr>
+				      <th scope="col">Item #</th>
+				      <th scope="col">Date</th>
+				      <th scope="col">Cost</th>
+				      <th scope="col">VAT tax paid (rounded to nearest .01)</th>
+				      <th scope="col">Reason</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <tr ng-repeat="index in expenses">
+				      <th scope="row">{{index.number}}</th>
+				      <td>{{index.date}}</td>
+				      <td>{{index.cost}}</td>
+				      <td>{{index.tax}}</td>
+				      <td>{{index.reason}}</td>
+				    </tr>
+				
+				  </tbody>
+				</table>
+
+
+				<a href="#/">Back</a>
+
+		</div>
+
+	</div>
+</body>
+</html>

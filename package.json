@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "description": "yoosh test",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "ejs": "1.0.0",
+    "express": "~4.10.0",
+    "mongoose": "^4.4.2",
+    "moment": "latest"
+  },
+  "engines": {
+    "node": "8.9.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
